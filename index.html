@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="conatiner">
+      <div class="main_user_block">
+        <div class="barcode_lable_setting">
+          <div class="input_form">
+            <!-- Font Famliy Block -->
+            <div class="input">
+              <label for="font-famliy">Font Famliy</label>
+              <select id="fantasy" name="font-famliy">
+                <option value="monospace" selected="selected">Monospace</option>
+                <option value="sans-serif">Sans-serif</option>
+                <option value="serif">Serif</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="cursive">Cursive</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- User Input Block -->
+        <div class="user_input">
+          <div class="input_form">
+            <!-- Select Cart Type Block -->
+            <div class="input">
+              <label for="cart_type">Select Cart Type </label>
+              <select id="cart_type">
+                <option value="1">Single</option>
+                <option value="2">Double</option>
+                <option value="3">Triple</option>
+              </select>
+            </div>
+
+            <!-- Enter Cart Id Block -->
+            <div class="input">
+              <label for="cart_id">Enter Cart Id </label>
+              <input type="number" id="cart_id" />
+            </div>
+
+            <!-- Numbar of Label Block -->
+            <div class="input">
+              <label for="lable_count">Numbar of Label </label>
+              <input type="number" id="lable_count" />
+            </div>
+
+            <!-- Button Block -->
+            <div class="input">
+              <button id="MakeBTN" type="button">Submit</button>
+              <button id="ResetBTN" type="button">Reset</button>
+              <button id="SettingBTN" type="button">Setting</button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div id="status_bar"></div>
+      </div>
+
+      <div class="barcode_lable_perviwe">
+        <div id="barcode_lable_perviwe"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
