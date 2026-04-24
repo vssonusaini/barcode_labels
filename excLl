@@ -1,0 +1,139 @@
+It seems like I can’t do more advanced data analysis right now. Please try again later.
+
+Abhi file generate nahi ho payi, lekin main poora MD file content yahin de raha hoon — tum ise ek hi baar copy karke .md file me paste kar sakte ho.
+
+⸻
+
+📄 Copy Below — Full MD File Content
+
+Isko Notepad me paste karo aur save karo:
+
+Petty_Cash_HOD_Excel_Structure.md
+
+⸻
+
+# Petty Cash HOD Excel Structure
+Ye file Excel workbook banane ke liye sheet-wise format deti hai.  
+Har section ko alag Excel sheet me paste karein.
+---
+# SHEET 1 — PettyCash_Entry
+Sheet Name: PettyCash_Entry
+
+Date	Voucher No	User Name	Department	Building Name	Expense Category	Sub Category	Description	Amount	Payment Mode	Bill No	Vendor Name	Approved By	Entry By	Status	Remarks
+01-04-2026	PC001	Rahul	Electrical	Tower-A	Electrical	Bulb	Bulb Purchase	250	Cash	B001	Ramesh Electrical	HOD	Sonu	Pending	Urgent Replacement
+
+---
+# SHEET 2 — Card_Master
+Sheet Name: Card_Master
+
+Card Number	Card Holder Name	Department	Card Limit	Opening Balance	Used Amount	Available Balance	Last Transaction Date	Status	Remarks
+CARD001	Rahul	Electrical	10000	10000	2500	7500	01-04-2026	Active	Main Electrical Card
+
+---
+# SHEET 3 — User_Master
+Sheet Name: User_Master
+
+User Name	Employee ID	Department	Designation	Email ID	Mobile Number	Assigned Card Number	Status
+Rahul	EMP001	Electrical	Technician	rahul@email.com	9876543210	CARD001	Active
+
+---
+# SHEET 4 — Category_Master
+Sheet Name: Category_Master
+
+Category Name	Sub Category Name
+Electrical	Bulb
+Electrical	Switch
+Electrical	Wire
+Electrical	MCB
+Plumbing	Pipe
+Plumbing	Tap
+Plumbing	Valve
+Civil	Cement
+Civil	Tiles
+Civil	Paint
+HVAC	AC Repair
+HVAC	Gas Filling
+RO	Filter
+RO	Membrane
+Pest Control	Spray
+Pest Control	Gel Treatment
+Housekeeping	Cleaning Items
+Housekeeping	Chemicals
+Stationery	Paper
+Stationery	Pen
+Courier	Local Courier
+Courier	Speed Post
+Pantry	Tea
+Pantry	Water
+Diesel	DG Diesel
+IT	Mouse
+IT	Keyboard
+Security	Uniform
+Security	Torch
+Fire Safety	Fire Extinguisher Refill
+Fire Safety	Smoke Detector
+Vehicle	Fuel
+Vehicle	Repair
+Miscellaneous	Other Expense
+
+---
+# SHEET 5 — HOD_Summary
+Sheet Name: HOD_Summary
+
+User Name	Total Expenses	Approved Amount	Pending Amount	Closing Balance
+Rahul	5000	3000	2000	5000
+
+---
+# SHEET 6 — Vendor_Master
+Sheet Name: Vendor_Master
+
+Vendor Name	Service Type	Contact Number	Email	Address	Status
+Ramesh Electrical	Electrical	9876543210	ramesh@email.com	Delhi	Active
+
+---
+# SHEET 7 — Building_Master
+Sheet Name: Building_Master
+
+Building Name	Location	Total Floors	Total Units	Status
+Tower-A	Gurgaon	10	100	Active
+
+---
+# SHEET 8 — Department_Master
+Sheet Name: Department_Master
+
+Department Name	HOD Name	Status
+Electrical	Sonu	Active
+Plumbing	Amit	Active
+Housekeeping	Raj	Active
+
+---
+# How to Use
+1. Excel open karein  
+2. New Workbook banayein  
+3. Har section ko alag sheet me paste karein  
+4. Sheet names same rakhein  
+5. Users ko PettyCash_Entry sheet fill karne dein  
+---
+# Recommended Future Improvements
+- Dropdown for Category  
+- Auto Balance Calculation  
+- User Wise Dashboard  
+- Monthly MIS Report  
+- Budget vs Actual Tracking  
+
+⸻
+
+Next Step (Main ye bhi bana sakta hoon)
+
+Agar chaho to main next me bana sakta hoon:
+
+* ￼ 📊 Auto formula version
+* ￼ 📉 HOD Dashboard with charts
+* ￼ 📅 Monthly MIS format
+* ￼ 📧 Auto email update workflow
+
+Bas batao:
+
+1. Kitne users petty cash use karte hain?
+2. Kitni buildings handle karte ho?
+3. Monthly petty cash budget kitna hai?
